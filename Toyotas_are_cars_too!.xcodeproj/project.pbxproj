@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E90F58471CD0097600DBF677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F58461CD0097600DBF677 /* main.m */; };
+		E90F584F1CD059D000DBF677 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F584E1CD059D000DBF677 /* Car.m */; };
+		E90F58521CD062F000DBF677 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F58511CD062F000DBF677 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E90F58431CD0097600DBF677 /* Toyotas_are_cars_too! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Toyotas_are_cars_too!"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90F58461CD0097600DBF677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E90F584D1CD059D000DBF677 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E90F584E1CD059D000DBF677 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		E90F58501CD062F000DBF677 /* Toyota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		E90F58511CD062F000DBF677 /* Toyota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		E90F583A1CD0097600DBF677 = {
 			isa = PBXGroup;
 			children = (
+				E90F584D1CD059D000DBF677 /* Car.h */,
+				E90F584E1CD059D000DBF677 /* Car.m */,
+				E90F58501CD062F000DBF677 /* Toyota.h */,
+				E90F58511CD062F000DBF677 /* Toyota.m */,
 				E90F58451CD0097600DBF677 /* Toyotas_are_cars_too! */,
 				E90F58441CD0097600DBF677 /* Products */,
 			);
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90F58521CD062F000DBF677 /* Toyota.m in Sources */,
+				E90F584F1CD059D000DBF677 /* Car.m in Sources */,
 				E90F58471CD0097600DBF677 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
